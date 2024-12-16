@@ -14,7 +14,7 @@ data class User(
     val id: Long = 0,
 
     @field: NotEmpty(message = "Name is required")
-    val  name: String,
+    val name: String,
 
     @field: NotEmpty(message = "Email should be valid")
     var email: String

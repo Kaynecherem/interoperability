@@ -50,7 +50,6 @@ class UserController(private val userRepository: UserRepository) {
             ResponseEntity.notFound().build()
         }
     }
-
 }
 
 data class EmailUpdate(val email: String)
